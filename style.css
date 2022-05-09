@@ -1,17 +1,76 @@
 body {
-    background-color: gray;
-}
-
-p {
+    margin: 0;
+    background-color: rgb(76, 76, 76);
     color: white;
 }
 
-.projectIntros {
-    display: flex;
+h1 {
+    font-size: 5vh;
 }
 
-.projectIntrosText {
-    display: flex;
-    flex-direction: column;
+h1, h2, h3, h4, h5 {
+    font-family: 'Abril Fatface';
 }
 
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(37, 37, 37);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 35px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: rgb(255, 157, 0);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  position: absolute;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.heroVideo {
+    position: absolute;
+    overflow: hidden;
+    object-fit: cover;
+    height: 40vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.hero h1 {
+    background-color: rgb(255, 157, 0);
+    border: 10px solid rgb(255, 157, 0);
+}
+
+main {
+    margin-top: 40vh;
+}

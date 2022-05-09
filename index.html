@@ -4,40 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Abril+Fatface">
     <title>Document</title>
 </head>
 <body>
-    <div class="hero">
-        <h1>Welcome</h1>
-        video here
-    </div>
 
-<h2>Welcome!</h2>
-    <p>intro text here</p>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="resume.html">Resume</a>
+    <a href="projects.html">Projects</a>
+    <a href="artwork.html">Artwork</a>
+    <a href="writing.html">Writing</a>
+    <a href="contact.html">Contact</a>
+</div>
 
+<span style="font-size:50px;cursor:pointer" onclick="openNav()" id="navSpan">&#9776;</span>
+
+<div class="hero">
+    <h1>Welcome</h1>
+    
+    <video class="heroVideo" autoplay muted loop>
+        <source src="video/jellyfish.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+</div>
+
+<main>
     <img src="" alt="">
     <h3>About Me</h3>
-    <p>sample text sample text</p>
+    <p>My about page features information that isn't work related, like my plans for school and hobbies I have.</p>
 
     <img src="" alt="">
     <h3>Resume</h3>
-    <p>sample text sample text</p>
+    <p>Here you will find my resume as well as a letter of recommendation.</p>
 
     <img src="" alt="">
     <h3>Projects</h3>
-    <p>sample text sample text</p>
+    <p>This page will route you to any projects I have chosen to present from my Web Application Development lab.</p>
 
     <img src="" alt="">
     <h3>Artwork</h3>
-    <p>sample text sample text</p>
+    <p>My art section showcases pieces I have worked on in the last year and am the most proud of.</p>
 
     <img src="" alt="">
     <h3>Writing</h3>
-    <p>sample text sample text</p>
+    <p>Written works which I feel showcase my skills well are featured here.</p>
 
     <img src="" alt="">
     <h3>Contact</h3>
-    <p>This page will show you any of my contact information needed to reach me. In case you have any questions or comments regarding this page and what you have found, please feel free to send me an email or text. Typically, I will respond quickly.</p>
+    <p>This page will show you any of my contact information needed to reach me.</p>
+</main>
 
 <footer>
     <div>
