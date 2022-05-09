@@ -4,14 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Abril+Fatface">
     <title>Document</title>
 </head>
 <body>
-    <div class="hero">
-        <h1>About Me</h1>
-        video here
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="artwork.html">Artwork</a>
+        <a href="writing.html">Writing</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    
+    <div class="span">
+    <span style="font-size:50px;cursor:pointer" onclick="openNav()" id="navSpan">&#9776;</span>
     </div>
 
+    <div class="hero">
+        <h1>About Me</h1>
+
+        <video class="heroVideo" autoplay muted loop>
+            <source src="video/jellyfish.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+    </div>
+    
+<main>
     <div class="topText">
         <h2>Who is Alina Ennes?</h2>
             <p>My name is Alina Ennes and I am a junior in high school who loves to make video games, but typically hates playing them. 
@@ -31,7 +55,7 @@
         <img src="" alt="">
         <img src="" alt="">
     </div>
-    
+</main>
     <footer>
         <div>
             <p>Contact Me</p>

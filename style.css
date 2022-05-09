@@ -8,14 +8,17 @@ h1 {
     font-size: 5vh;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Abril Fatface';
+h2 {
+    font-size: 3vh;
 }
 
 p {
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vh;
 }
 
+.span {
+    margin-left: 10px;
+}
 .sidenav {
   height: 100%;
   width: 0;
@@ -27,6 +30,7 @@ p {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  
 }
 
 .sidenav a {
@@ -69,6 +73,7 @@ p {
 .hero h1 {
     background-color: rgb(255, 157, 0);
     border: 10px solid rgb(255, 157, 0);
+    text-align: center;
 }
 
 main {
