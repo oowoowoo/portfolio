@@ -1,0 +1,17 @@
+body {
+    background-color: gray;
+}
+
+p {
+    color: white;
+}
+
+.projectIntros {
+    display: flex;
+}
+
+.projectIntrosText {
+    display: flex;
+    flex-direction: column;
+}
+
