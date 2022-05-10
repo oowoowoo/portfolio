@@ -3,22 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Abril+Fatface">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="artwork.html">Artwork</a>
+        <a href="writing.html">Writing</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    
+    <div class="span">
+    <span style="font-size:50px;cursor:pointer" onclick="openNav()" id="navSpan">&#9776;</span>
+    </div>
+
     <div class="hero">
         <h1>The Door</h1>
-        video here
+        
+        <video class="heroVideo" autoplay muted loop>
+            <source src="video/sparkles.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
     </div>
+<main>
+    <div class="slideshowContainer">
 
-    <h2>The Door</h2>
-
-    <div class="slideshow">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-    </div>
+        <div class="slideshow fade">
+            <img src="img/thedoor1.PNG" alt="Calculator slide one">
+        </div>
+        
+        
+        <div class="slideshow fade">
+            <img src="img/thedoor2.PNG" alt="Calculator slide two">  
+        </div>
+        
+        <div class="slideshow fade">
+            <img src="img/thedoor3.PNG" alt="Calculator slide three">
+        </div>
+        
+        <a class="previous" onclick="nextSlide(-1)">&#10094;</a>
+        <a class="next" onclick="nextSlide(1)">&#10095;</a>
+        
+        </div>
+        </div>
+        <br>
 
     <p>The third project of this lab featured a partnered assignment once again, but with only one person. This time, we were required to create an interactive story game through means of HTML, CSS, and mostly JavaScript. My partner and I worked together in order to create a story, two flowcharts, and the code. As well as everything listed, I also included graphics to depict certain milestones within the game. These pieces of artwork were created with a digital art program, FireAlpaca.
         <br><br>
@@ -28,6 +63,8 @@
         <br><br>
         The CART “Habit of Mind” I mainly applied to this project was “collaborate”. Seeing as I had to build a storyline, flowchart, working code, and etc. with my partner, collaborating was a massive part of the project. After my previous trouble with communication on my tourism project, I decided to be more confident this time. In the end, my determination to succeed greatly benefitted me as we were able to create a decent game. 
     </p>
+
+    <p>Feel free to play the game here: <a href="https://thedoor.netlify.app/">The Door</a></p>
 
     
 
@@ -53,6 +90,6 @@
             <button>Contact</button>
         </div>
     </footer>
-    
+    <script src="script.js"></script>  
 </body>
 </html>

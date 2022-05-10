@@ -3,22 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Abril+Fatface">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="artwork.html">Artwork</a>
+        <a href="writing.html">Writing</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    
+    <div class="span">
+    <span style="font-size:50px;cursor:pointer" onclick="openNav()" id="navSpan">&#9776;</span>
+    </div>
+    
     <div class="hero">
         <h1>Chronoshift Expeditions</h1>
-        video here
+        
+        <video class="heroVideo" autoplay muted loop>
+            <source src="video/paint2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
     </div>
+<main>
+    <div class="slideshowContainer">
 
-    <h2>Chronoshift Expeditions</h2>
-
-    <div class="slideshow">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-    </div>
+        <div class="slideshow fade">
+            <img src="img/csexpeditions1.PNG" alt="Calculator slide one">
+        </div>
+        
+        
+        <div class="slideshow fade">
+            <img src="img/csexpeditions2.PNG" alt="Calculator slide two">  
+        </div>
+        
+        <div class="slideshow fade">
+            <img src="img/csexpeditions3.PNG" alt="Calculator slide three">
+        </div>
+        
+        <a class="previous" onclick="nextSlide(-1)">&#10094;</a>
+        <a class="next" onclick="nextSlide(1)">&#10095;</a>
+        
+        </div>
+        </div>
+        <br>
 
     <p>The first real coding assignment we were given in the year was our Chronoshift Expeditions website project.  This project was given to us because of the story we had been reading during our English portion of the class, “A Sound of Thunder” by Ray Bradbury. We were told to make a website based on the time travel company featured in the story. To create it, I used multiple programs, namely Lucidchart, Figma, and Visual Studio Code. 
         <br><br>
@@ -28,13 +64,7 @@
         <br><br>
         The CART “Habits of Mind” that I was able to apply to this project was “persist”. Although my entire body kept fighting me to actually work on the assignment (meaning I physically could not make myself work), I was able to persevere and finish. Another “Habit of Mind” I applied was “collaborate”. Around the middle of this project, I began to speak to some of my classmates and found that I was often not alone in my struggles. Some of the things they suggested had saved my entire project from ruins, as did some of my advice to theirs.    
     </p>
-
-    <div class="threeImages">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-    </div>
-
+</main>
     <footer>
         <div>
             <p>Contact Me</p>
@@ -51,6 +81,6 @@
             <button>Contact</button>
         </div>
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html>
