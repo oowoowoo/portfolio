@@ -19,7 +19,7 @@ p {
 .span {
     margin-left: 10px;
 }
-.sidenav {
+.sidenav, .sidenavPink {
   height: 100%;
   width: 0;
   position: fixed;
@@ -33,7 +33,7 @@ p {
   
 }
 
-.sidenav a {
+.sidenav a, .sidenavPink a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 35px;
@@ -44,6 +44,10 @@ p {
 
 .sidenav a:hover {
   color: rgb(255, 157, 0);
+}
+
+.sidenavPink a:hover {
+  color: rgb(254, 101, 249);
 }
 
 .sidenav .closebtn {
@@ -70,9 +74,33 @@ p {
     z-index: -1;
 }
 
-.hero h1 {
+.orange {
     background-color: rgb(255, 157, 0);
     border: 10px solid rgb(255, 157, 0);
+    text-align: center;
+}
+
+.blue {
+  background-color: rgb(0, 0, 195);
+    border: 10px solid rgb(0, 0, 195);
+    text-align: center;
+}
+
+.paleorange {
+  background-color: rgb(225, 169, 64);
+    border: 10px solid rgb(225, 169, 64);
+    text-align: center;
+}
+
+.palerorange {
+  background-color: rgb(255, 195, 83);
+    border: 10px solid rgb(255, 195, 83);
+    text-align: center;
+}
+
+.pink {
+  background-color: rgb(254, 101, 249);
+    border: 10px solid rgb(254, 101, 249);
     text-align: center;
 }
 
@@ -131,4 +159,8 @@ main {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.aboutButton {
+  border: solid purple;
 }

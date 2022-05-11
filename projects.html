@@ -4,28 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Abril+Fatface">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="hero">
-        <h1>Projects</h1>
-        video here
-    </div>
 
-    <h2>Projects</h2>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="resume.html">Resume</a>
+    <a href="projects.html">Projects</a>
+    <a href="artwork.html">Artwork</a>
+    <a href="writing.html">Writing</a>
+    <a href="contact.html">Contact</a>
+</div>
+    
+<div class="span">
+    <span style="font-size:50px;cursor:pointer" onclick="openNav()" id="navSpan">&#9776;</span>
+</div>
 
+<div class="hero">
+    <video class="heroVideo" autoplay muted loop>
+        <source src="video/jellyfish4.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+    </video>
+</div>
+    
+    
+    
+<main>
+
+<h1 class="orange">Projects</h1>
     <div class="projectIntros">
-        <div class="projectIntrosImg">
-            <img src="img/logo.png" alt="" width="100%" height="50%">
-        </div>
-
-    <div class="projectIntrosText">
         <h3>The Door</h3>
         <p>The Door is an interactive sci-fi story game I created, featuring player chosen routes and digital artwork.</p>
         <a href="game.html"><button>View</button></a>
-    </div>
-
     </div>
 
     <div class="projectIntros">
@@ -48,6 +64,7 @@
         <p>This calculator project was one of my first independent JavaScript projects, showcasing my ability to work with HTML, CSS, and JavaScript together.</p>
         <a href="calculator.html"><button>View</button></a>
     </div>
+</main>
 
     <footer>
         <div>
@@ -65,6 +82,7 @@
             <button>Contact</button>
         </div>
     </footer>
-    
+
+<script src="script.js"></script>
 </body>
 </html>

@@ -4,22 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Abril+Fatface">
     <title>Document</title>
 </head>
 <body>
-    <div class="hero">
-        <h1>Undertaking</h1>
-        video here
-    </div>
 
-    <h2>Undertaking</h2>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="resume.html">Resume</a>
+    <a href="projects.html">Projects</a>
+    <a href="artwork.html">Artwork</a>
+    <a href="writing.html">Writing</a>
+    <a href="contact.html">Contact</a>
+</div>
+    
+<div class="span">
+    <span style="font-size:50px;cursor:pointer" onclick="openNav()" id="navSpan">&#9776;</span>
+</div>
 
-    <div class="slideshow">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-    </div>
+<div class="hero">
+    <video class="heroVideo" autoplay muted loop>
+        <source src="video/jellyfish5.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+    </video>
+</div>
+    
+<main>
 
+<h1 class="paleorange">Undertaking</h1>
     <p>The second big project we did in our lab was the tourism website. I was instructed to work with two other students to collaborate on a travel information website. Each one of us picked a country to work on according to a Google Form we filled out, and then compiled all of our information into one website. Our website consisted of the history, traditions, and transportation methods/costs for each student's country. We utilized the same programs as the previous project, minus Lucidchart. 
         <br><br>
         Since this was my first major partner project in the class, I was very nervous the entire time. While it is better than it once was a couple of years ago, my ability to easily speak to other people is not very strong. I very heavily lacked on communicating my problems to my two partners and it proved to be costly. I unnecessarily stressed myself out every step of the way. However, the actual presentation part of this project was extremely helpful to me. Since we were required to present multiple times, I was able to work on my ability to cleanly deliver my words. Since then, that skill has faded, but it was nice while it lasted.
@@ -34,6 +49,7 @@
         <img src="" alt="">
         <img src="" alt="">
     </div>
+</main>
 
     <footer>
         <div>
@@ -52,5 +68,6 @@
         </div>
     </footer>
     
+<script src="script.js"></script>
 </body>
 </html>
