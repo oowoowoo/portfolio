@@ -4,14 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Abril+Fatface">
     <title>Document</title>
 </head>
 <body>
-    <div class="hero">
-        <h1>Contact</h1>
-        video here
-    </div>
 
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="resume.html">Resume</a>
+    <a href="projects.html">Projects</a>
+    <a href="artwork.html">Artwork</a>
+    <a href="writing.html">Writing</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<div class="span">
+<span style="font-size:50px;cursor:pointer" onclick="openNav()" id="navSpan">&#9776;</span>
+</div>
+
+<div class="hero">
+    <video class="heroVideo" autoplay muted loop>
+        <source src="video/jellyfish11.mp4" type="video/mp4">
+            Your browser does not support the video tag. 
+    </video>
+</div>
+
+<main>
+<h1 class="lighterblue">Contact</h1>
     <p>Thank you for taking the time to browse through my portfolio website. I hope that the content presented to you was of your liking. In case you have any questions or comments regarding this page and
         what you have found, please feel free to send me an email or text. Typically, I will respond quickly.</p>
     
@@ -29,7 +51,8 @@
         <h4>Email contents go in here...</h4>
         <input type="text">
     </div>
-    
+</main>
+
     <footer>
         <div>
             <p>Contact Me</p>
@@ -46,6 +69,6 @@
             <button>Contact</button>
         </div>
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html>
