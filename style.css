@@ -4,79 +4,77 @@ body {
     color: white;
 }
 
+
 h1 {
     font-size: 5vh;
+    font-family: 'Comfortaa', cursive;
 }
 
 h2 {
     font-size: 3vh;
+    font-family: 'Comfortaa', cursive;
 }
 
 p {
     font-size: 2vh;
 }
 
-.span {
-    margin-left: 10px;
-}
-.sidenav, .sidenavPink {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(37, 37, 37);
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-  
+.navFont {
+  font-family: 'Comfortaa', cursive;
 }
 
-
-.sidenav a, .sidenavPink a, .dropdown {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 35px;
-  color: #ffffff;
-  display: block;
-  transition: 0.3s;
+.nav {
+  background-color: rgb(31, 31, 31);
+  overflow: hidden;
 }
 
-.sidenav a:hover {
-  color: rgb(255, 157, 0);
-}
-
-.sidenavPink a:hover {
-  color: rgb(254, 101, 249);
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-  position: absolute;
-}
-
-.active {
-  background-color: green;
+.nav a {
+  float: left;
   color: white;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav a:hover {
+  background-color: white;
+  color: rgb(31, 31, 31);
+}
+
+.nav a.orangeActive {
+  background-color: rgb(255, 157, 0);
+}
+
+.nav a.blueActive {
+  background-color: rgb(0, 0, 195);
+}
+
+.nav a.pinkActive {
+  background-color: rgb(254, 101, 249);
+}
+
+.nav a.purpleActive {
+  background-color: rgb(109, 58, 166);
+}
+
+.nav a.lighterBlueActive {
+  background-color: rgb(42, 141, 244);
+}
+
+.nav a.yellowActive {
+  background-color: rgb(255, 195, 83);
+}
+
+.nav a.paleOrangeActive {
+  background-color: rgb(225, 169, 64);
+}
+
+.nav a.lightBlueActive {
+  background-color: rgb(0, 84, 255);
 }
 
 
-
-.dropdown {
-  display: none;
-  background-color: brown;
-  padding-left: 8px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 
 .heroVideo {
     position: absolute;
@@ -105,7 +103,7 @@ p {
     text-align: center;
 }
 
-.palerorange {
+.yellow {
   background-color: rgb(255, 195, 83);
     border: 10px solid rgb(255, 195, 83);
     text-align: center;
@@ -194,7 +192,4 @@ main {
   to {opacity: 1}
 }
 
-.home {
-  
-}
 
