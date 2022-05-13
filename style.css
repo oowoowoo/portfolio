@@ -17,6 +17,50 @@ h2 {
 
 p {
     font-size: 2vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li:hover {
+  background: #555;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+ul li ul {
+  position: absolute;
+  width: 25vh;
+  display: none;
+  margin-top: 6vh;
+  background-color: #555;
+}
+
+ul li ul li { 
+  background: white; 
+  display: block; 
+}
+
+ul li ul li a {
+  display:block !important;
+} 
+ul li ul li:hover {
+  background: grey;
+}
+
+.homeLink {
+  text-decoration: none;
+  color: inherit;
 }
 
 .navFont {
@@ -178,7 +222,7 @@ main {
   right: 0;
 }
 
-.prev:hover, .next:hover {
+.previous:hover, .next:hover {
   background-color: gray;
 }
 
@@ -192,4 +236,39 @@ main {
   to {opacity: 1}
 }
 
+.flexHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
 
+.flexHome2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 0;
+}
+
+.home {
+  max-width: 33.6vh;
+  background-color: grey;
+  border: 10px solid gray;
+  margin: 3vh;
+}
+
+img {max-width:100%;}
+
+.boxshadow {
+  box-shadow:
+  2.3px 1.7px 0px rgba(0, 0, 0, 0.024),
+  6.3px 4.8px 0px rgba(0, 0, 0, 0.035),
+  15.1px 11.5px 0px rgba(0, 0, 0, 0.046),
+  50px 38px 0px rgba(0, 0, 0, 0.07)
+;
+
+
+}
