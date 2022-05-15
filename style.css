@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-color: rgb(76, 76, 76);
     color: white;
-    animation: fadeInAnimation ease 2s;
+    animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -16,6 +16,19 @@ body {
   }
 }
 
+.indent {
+  margin-left: 50px;
+}
+
+.indent2 {
+  margin-left: 70px;
+}
+
+.style3 {
+  font-size: 2vh;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
 h1 {
     font-size: 5vh;
@@ -25,6 +38,16 @@ h1 {
 h2 {
     font-size: 3vh;
     font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+  font-size: 3vh;
+  font-family: 'Comfortaa', cursive;
+}
+
+.indent {
+  font-size: 2vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 p {
@@ -314,10 +337,14 @@ img {max-width:100%;}
 .writingBack {
   background-color: grey;
   border: 10px solid grey;
-  padding-bottom: 10px;
 }
 
 .writingBack2 {
+  background-color: grey;
+  border: 10px solid grey;
+}
+
+.greyBack {
   background-color: grey;
   border: 10px solid grey;
 }
